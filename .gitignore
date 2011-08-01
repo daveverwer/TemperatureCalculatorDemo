@@ -4,4 +4,6 @@
 *.perspectivev3
 *.pbxuser
 *.tm_build_errors
+*.xcuserdatad
+contents.xcworkspacedata
 build
