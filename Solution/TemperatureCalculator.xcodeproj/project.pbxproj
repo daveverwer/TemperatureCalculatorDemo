@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55A98CE013E7F8700071A095 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A98CDF13E7F8700071A095 /* UIKit.framework */; };
+		55A98CE213E7F8700071A095 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A98CE113E7F8700071A095 /* Foundation.framework */; };
+		55A98CE413E7F8700071A095 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A98CE313E7F8700071A095 /* CoreGraphics.framework */; };
+		55A98CEA13E7F8700071A095 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55A98CE813E7F8700071A095 /* InfoPlist.strings */; };
+		55A98CEC13E7F8700071A095 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A98CEB13E7F8700071A095 /* main.m */; };
+		55A98CF013E7F8700071A095 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A98CEF13E7F8700071A095 /* AppDelegate.m */; };
+		55A98CF313E7F8700071A095 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55A98CF113E7F8700071A095 /* MainWindow.xib */; };
+		55A98D2313E80A540071A095 /* Icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A98D2113E80A540071A095 /* Icon57.png */; };
+		55A98D2413E80A540071A095 /* Icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A98D2213E80A540071A095 /* Icon114.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		55A98CDB13E7F8700071A095 /* TemperatureCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TemperatureCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A98CDF13E7F8700071A095 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		55A98CE113E7F8700071A095 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		55A98CE313E7F8700071A095 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		55A98CE713E7F8700071A095 /* TemperatureCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TemperatureCalculator-Info.plist"; sourceTree = "<group>"; };
+		55A98CE913E7F8700071A095 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		55A98CEB13E7F8700071A095 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55A98CED13E7F8700071A095 /* TemperatureCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TemperatureCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		55A98CEE13E7F8700071A095 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55A98CEF13E7F8700071A095 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55A98CF213E7F8700071A095 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		55A98D2113E80A540071A095 /* Icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon57.png; path = Resources/Icon57.png; sourceTree = SOURCE_ROOT; };
+		55A98D2213E80A540071A095 /* Icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon114.png; path = Resources/Icon114.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55A98CD813E7F8700071A095 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A98CE013E7F8700071A095 /* UIKit.framework in Frameworks */,
+				55A98CE213E7F8700071A095 /* Foundation.framework in Frameworks */,
+				55A98CE413E7F8700071A095 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55A98CD013E7F8700071A095 = {
+			isa = PBXGroup;
+			children = (
+				55A98CE513E7F8700071A095 /* TemperatureCalculator */,
+				55A98CDE13E7F8700071A095 /* Frameworks */,
+				55A98CDC13E7F8700071A095 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55A98CDC13E7F8700071A095 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55A98CDB13E7F8700071A095 /* TemperatureCalculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55A98CDE13E7F8700071A095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A98CDF13E7F8700071A095 /* UIKit.framework */,
+				55A98CE113E7F8700071A095 /* Foundation.framework */,
+				55A98CE313E7F8700071A095 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55A98CE513E7F8700071A095 /* TemperatureCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				55A98CEE13E7F8700071A095 /* AppDelegate.h */,
+				55A98CEF13E7F8700071A095 /* AppDelegate.m */,
+				55A98CF113E7F8700071A095 /* MainWindow.xib */,
+				55A98D1F13E7FC990071A095 /* Resources */,
+				55A98CE613E7F8700071A095 /* Supporting Files */,
+			);
+			path = TemperatureCalculator;
+			sourceTree = "<group>";
+		};
+		55A98CE613E7F8700071A095 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55A98CE713E7F8700071A095 /* TemperatureCalculator-Info.plist */,
+				55A98CED13E7F8700071A095 /* TemperatureCalculator-Prefix.pch */,
+				55A98CE813E7F8700071A095 /* InfoPlist.strings */,
+				55A98CEB13E7F8700071A095 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55A98D1F13E7FC990071A095 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55A98D2113E80A540071A095 /* Icon57.png */,
+				55A98D2213E80A540071A095 /* Icon114.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55A98CDA13E7F8700071A095 /* TemperatureCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55A98CF613E7F8700071A095 /* Build configuration list for PBXNativeTarget "TemperatureCalculator" */;
+			buildPhases = (
+				55A98CD713E7F8700071A095 /* Sources */,
+				55A98CD813E7F8700071A095 /* Frameworks */,
+				55A98CD913E7F8700071A095 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TemperatureCalculator;
+			productName = TemperatureCalculator;
+			productReference = 55A98CDB13E7F8700071A095 /* TemperatureCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55A98CD213E7F8700071A095 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Shiny Development Ltd.";
+			};
+			buildConfigurationList = 55A98CD513E7F8700071A095 /* Build configuration list for PBXProject "TemperatureCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 55A98CD013E7F8700071A095;
+			productRefGroup = 55A98CDC13E7F8700071A095 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55A98CDA13E7F8700071A095 /* TemperatureCalculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55A98CD913E7F8700071A095 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A98CEA13E7F8700071A095 /* InfoPlist.strings in Resources */,
+				55A98CF313E7F8700071A095 /* MainWindow.xib in Resources */,
+				55A98D2313E80A540071A095 /* Icon57.png in Resources */,
+				55A98D2413E80A540071A095 /* Icon114.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55A98CD713E7F8700071A095 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A98CEC13E7F8700071A095 /* main.m in Sources */,
+				55A98CF013E7F8700071A095 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		55A98CE813E7F8700071A095 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A98CE913E7F8700071A095 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		55A98CF113E7F8700071A095 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55A98CF213E7F8700071A095 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55A98CF413E7F8700071A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55A98CF513E7F8700071A095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55A98CF713E7F8700071A095 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureCalculator/TemperatureCalculator-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureCalculator/TemperatureCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		55A98CF813E7F8700071A095 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TemperatureCalculator/TemperatureCalculator-Prefix.pch";
+				INFOPLIST_FILE = "TemperatureCalculator/TemperatureCalculator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55A98CD513E7F8700071A095 /* Build configuration list for PBXProject "TemperatureCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A98CF413E7F8700071A095 /* Debug */,
+				55A98CF513E7F8700071A095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55A98CF613E7F8700071A095 /* Build configuration list for PBXNativeTarget "TemperatureCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55A98CF713E7F8700071A095 /* Debug */,
+				55A98CF813E7F8700071A095 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55A98CD213E7F8700071A095 /* Project object */;
+}
